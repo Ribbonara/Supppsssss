@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100c12">
+  <title>One More Chapter — A Second Chance at Love</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="wordmark" href="#home">ONE MORE <span>CHAPTER</span></a>
+    <button class="music-pill" id="headerMusicButton" type="button">
+      <span class="tiny-equalizer" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span id="headerMusicLabel">Play our soundtrack</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow">A LETTER FROM MY HEART</div>
+      <p class="hero-kicker">Some stories deserve a gentler ending.</p>
+      <h1>One More<br><em>Chapter.</em></h1>
+      <p class="hero-copy">
+        Not to erase what happened. Not to ask you to forget.<br>
+        Just to tell you what my heart still wishes it had said.
+      </p>
+      <button class="primary-button" id="readHeartButton" type="button">
+        Read My Heart <span>↗</span>
+      </button>
+      <p class="hero-note">Best experienced with sound, whenever you're ready.</p>
+      <div class="scroll-cue">TAKE YOUR TIME</div>
+    </section>
+
+    <section class="section story-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">CHAPTER 01 · THE LITTLE THINGS</p>
+        <h2>Our kind of <em>forever.</em></h2>
+        <p>It was never only about the big moments. It was all the tiny things that became our world.</p>
+      </div>
+
+      <div class="memory-grid">
+        <figure class="memory-card memory-large">
+          <div class="photo-placeholder photo-one">
+            <span>01</span><small>THE DAYS THAT FELT LIKE HOME</small>
+          </div>
+          <figcaption>
+            <span>01 / A favorite memory</span>
+            <p>“I still smile when I remember the way we laughed.”</p>
+          </figcaption>
+        </figure>
+
+        <figure class="memory-card">
+          <div class="photo-placeholder photo-two">
+            <span>02</span><small>THE LITTLE ADVENTURES</small>
+          </div>
+          <figcaption>
+            <span>02 / Our ordinary magic</span>
+            <p>“Ordinary days were never ordinary with you.”</p>
+          </figcaption>
+        </figure>
+
+        <figure class="memory-card">
+          <div class="photo-placeholder photo-three">
+            <span>03</span><small>THE MOMENTS I KEEP</small>
+          </div>
+          <figcaption>
+            <span>03 / Still close to my heart</span>
+            <p>“Some moments stay, even when life changes.”</p>
+          </figcaption>
+        </figure>
+      </div>
+      <p class="edit-hint">Replace these placeholders with your own photos.</p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-card">
+        <p class="eyebrow">CHAPTER 02 · WHAT I SHOULD HAVE SAID</p>
+        <h2>A little less pride.<br><em>A little more honesty.</em></h2>
+
+        <div class="letter-body">
+          <p>Hey you,</p>
+          <p>I know that feelings alone cannot fix everything. I know that there were moments when I should have listened better, shown up more, and made you feel valued instead of leaving you to wonder.</p>
+          <p>I'm sorry for the times my actions didn't match the care I had for you. I won't pretend that one letter can undo hurt, and I don't expect you to forget anything just because I'm finally finding the right words.</p>
+          <p>I'm trying to understand, to grow, and to become someone who loves with patience—not just promises. The memories we made still mean a lot to me, but your peace matters too.</p>
+          <p>There is no deadline for your answer. You don't owe me one. I only wanted to be honest, and to say that if you ever want to talk, I'll meet that conversation with care.</p>
+          <p class="letter-signoff">With honesty, always,<br><em>Someone who still cares.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section our-song-section" id="our-song">
+      <div class="song-art-wrap">
+        <div class="song-art" id="songArt">
+          <div class="art-ring"></div>
+          <span class="art-heart">♡</span>
+          <small>OUR SONG</small>
+        </div>
+      </div>
+
+      <div class="song-copy">
+        <p class="eyebrow">A SOUNDTRACK FOR US</p>
+        <h2>Our <em>Song.</em></h2>
+        <p class="song-description">
+          Some songs hold a whole season of our lives inside a few minutes.
+          This one reminds me of
+          <span contenteditable="true" class="editable-memory">the little moments, the laughter, and the feeling of being close to you.</span>
+        </p>
+
+        <div class="track-meta">
+          <span class="track-title" id="ourSongTitle">Our Song</span>
+          <span class="track-artist" id="ourSongArtist">A song chosen for us</span>
+        </div>
+
+        <button class="outline-button" id="ourSongButton" type="button">
+          Play our song <span>♫</span>
+        </button>
+        <p class="tiny-note">Add your permitted audio file at <code>assets/music/our-song.mp3</code>.</p>
+      </div>
+    </section>
+
+    <section class="section proposal-section" id="proposal">
+      <div class="proposal-glow"></div>
+      <p class="eyebrow">CHAPTER 03 · IF YOUR HEART IS OPEN</p>
+      <p class="proposal-prelude">I don't want to go back and repeat our story exactly as it was.</p>
+      <h2>I would rather<br>write something <em>better.</em></h2>
+      <p class="proposal-copy">
+        With more listening. More kindness. More showing up.<br>
+        And with both of us free to choose what feels right.
+      </p>
+
+      <button class="primary-button proposal-button" id="revealProposalButton" type="button">
+        There is one thing I want to ask… <span>♡</span>
+      </button>
+
+      <div class="proposal-reveal" id="proposalReveal" aria-live="polite" hidden>
+        <div class="reveal-rule"></div>
+        <p class="reveal-label">NO PRESSURE. JUST HONESTY.</p>
+        <h3>Would you be open to<br><em>one more chapter with me?</em></h3>
+        <p>Only if it feels right for you, too. Whatever your answer, thank you for being part of my story.</p>
+
+        <div class="answer-actions">
+          <a class="primary-button" href="mailto:YOUR_EMAIL@example.com?subject=One%20More%20Chapter">
+            I'd like to talk <span>↗</span>
+          </a>
+          <button class="quiet-button" id="closeProposalButton" type="button">I need time</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>MADE WITH CARE, NOT EXPECTATION.</span>
+    <span>ONE MORE CHAPTER · ♡</span>
+  </footer>
+
+  <aside class="music-player" id="musicPlayer" aria-label="Music player">
+    <div class="player-top">
+      <div class="mini-art" id="miniArt"><span>♡</span></div>
+      <div class="player-track">
+        <strong id="playerTitle">A Quiet Beginning</strong>
+        <span id="playerArtist">Soft piano instrumental</span>
+      </div>
+      <button class="icon-button" id="muteButton" type="button" aria-label="Mute audio">◖</button>
+      <button class="icon-button play-button" id="playPauseButton" type="button" aria-label="Play music">▶</button>
+    </div>
+
+    <div class="player-progress-row">
+      <span id="currentTime">0:00</span>
+      <input id="progressSlider" type="range" min="0" max="100" value="0" step="0.1" aria-label="Music progress">
+      <span id="durationTime">0:00</span>
+    </div>
+
+    <div class="player-bottom">
+      <div class="audio-bars" id="audioBars" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <label class="volume-control">
+        <span>VOL</span>
+        <input id="volumeSlider" type="range" min="0" max="1" value="0.55" step="0.01" aria-label="Volume">
+      </label>
+      <span class="player-status" id="playerStatus">Sound off until you press play</span>
+    </div>
+  </aside>
+
+  <audio id="backgroundAudio" preload="metadata" loop>
+    <source src="assets/music/background-piano.mp3" type="audio/mpeg">
+  </audio>
+
+  <audio id="ourSongAudio" preload="metadata">
+    <source src="assets/music/our-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+          </html>
